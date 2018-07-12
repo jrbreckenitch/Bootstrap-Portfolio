@@ -1,0 +1,242 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    /* background-color: #ffffb3; */
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/pinkdust2.jpg);
+    /* /Users/jamesbreckenitch/Desktop/everythingBootcamp/HTML_assignment/Basic-Portfolio/assets/images */
+    /* background-image: url("http://adwallpapers.xyz/uploads/posts/3409-blank-abstract-light-blue-watercolor-background-isolated-on-white.jpg"); */
+    color: #777777;
+    position: relative;
+    padding: 0 0 175px 0;
+    min-height: 100%;
+}
+
+
+.myNav {
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 1.25em;
+}
+
+header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: #cccccc;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer {
+    background: #666666;
+    text-align: center;
+    padding-top: 15px;
+    border-top: 7px solid #4aaaa5;
+    color: #ffffff;
+    margin-left: 0;
+    margin-right: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#copyright {
+    padding-bottom: 3px;
+}
+
+.container {
+    width: 950px;
+    /* margin: 50px auto; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: auto;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#ipadPhoto {
+    float: left;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+}
+
+.loremText {
+    margin-right: 15px;
+    margin-left: 27px;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+
+.aboutMe {
+    text-align: left;
+    margin-left: 30px;
+    color: #4aaaa5;
+}
+
+.myName {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    float: left;
+}
+
+.navItems {
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    float: right;
+    font-size: 1.25em;
+}
+
+#navWide {
+    width: 950px;
+    margin: auto;
+}
+
+.pageLinks {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #777777;
+}
+
+#formContainer {
+    margin: 30px;
+}
+
+#name {
+    width: 100%;
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#email {
+    width: 100%;
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#message {
+    width: 100%;
+    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 25px;
+}
+
+.contentWrapper {
+    width: 200px;
+    height: 200px;
+    /* margin: 4% 10% 5% 10%; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 20px;    
+}
+
+.contentWrapper img {
+    width: 100%;
+}
+
+
+.textWrapper {
+    width: 100%;
+    position: relative;
+    margin-top: -40%;
+}
+
+.textWrapper p {
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#board {
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+#copper {
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+    /* display: block; */
+}
+
+#headphones {
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+    clear: left;
+}
+
+#ledtv {
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+    /* display: block; */
+}
+
+#techBoard {
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+    clear: left;
+}
+
+#imageContainer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+} 
+
+#imageContainer::after {
+    content: "";
+    display: block;
+    clear: both;
+}
