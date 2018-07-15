@@ -9,7 +9,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-static-top navbar-expand-lg navbar-light bg-light myNav">
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light myNav">
         <div class="container">
             <a class="navbar-brand name" id="nameBox">James Breckenitch</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,13 +19,13 @@
             <div class="collapse navbar-collapse pageLinks" id="navbarNav">
             <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item active">
-                <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item" >
                     <a class="nav-link">|</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item" >
                     <a class="nav-link">|</a>
@@ -36,6 +37,28 @@
             </div>
         </div>  
       </nav>
+      <!-- navbar -->
+
+      <!-- form container -->
+    <div class="container" id="contactContainer">
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Name: </label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="John Smith">
+
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Email: </label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="example@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message: </label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn" id="submit">Submit</button>
+        </form>
+    </div>
+    <!-- form container -->
 
     <!-- Footer -->
       <footer class="page-footer fixed-bottom">
