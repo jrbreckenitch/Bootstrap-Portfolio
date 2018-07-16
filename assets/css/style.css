@@ -6,19 +6,45 @@ body {
     padding-top: 85px;
 }
 
+.teal {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
 #indexContainer {
     background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 20px;
+
 }
 
 #contactContainer {
     background-color: #ffffff;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    padding: 25px;
+    margin-top: 50px;
+    border: 1px solid #dddddd;
 }
 
 #nameBox {
+    /* margin-left: 50px; */
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
     color: #ffffff;
     background-color: #4aaaa5;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: #cccccc;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #submit {
@@ -48,10 +74,12 @@ body {
 }
 
 #imageContainer {
-    padding-left: 40px;
+    /* padding-left: 40px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 20px; */
+    padding: 25px;
     background-color: #ffffff;
+    border: 1px solid #dddddd;
 } 
 
 footer {
@@ -64,13 +92,12 @@ footer {
     
 }
 
-
-/* .myNav {
+.myNav {
     background-color: #ffffff !important;
     border-bottom: 2px solid #cccccc;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 1.25em;
-} */
+}
 
 /* .pageLinks {
     margin-right: 50px;
