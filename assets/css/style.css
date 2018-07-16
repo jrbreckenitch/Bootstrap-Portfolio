@@ -3,7 +3,9 @@ body {
     background-image: url(../images/pinkdust2.jpg);
     /* background-image: url("http://adwallpapers.xyz/uploads/posts/3409-blank-abstract-light-blue-watercolor-background-isolated-on-white.jpg"); */
     color: #777777;
-    padding-top: 85px;
+    /* padding-top: 85px; */
+    padding: 110px 0px 120px 0px;
+    height: 100%;
 }
 
 .teal {
@@ -15,7 +17,11 @@ body {
     background-color: #ffffff;
     border: 1px solid #dddddd;
     padding: 20px;
+}
 
+.p-2 {
+    /* padding: .5rem!important; */
+    display: block;
 }
 
 #contactContainer {
@@ -33,10 +39,12 @@ body {
     margin-bottom: 0 !important;
     color: #ffffff;
     background-color: #4aaaa5;
-    /* padding-top: 20px;
-    padding-bottom: 20px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-right: 15px;
     padding-left: 15px;
+    font-size: 1.25em;
+    height: 100%;
 }
 
 hr {
@@ -80,6 +88,7 @@ hr {
     padding: 25px;
     background-color: #ffffff;
     border: 1px solid #dddddd;
+
 } 
 
 footer {
@@ -97,6 +106,8 @@ footer {
     border-bottom: 2px solid #cccccc;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 1.25em;
+    line-height: 35px;
+    display: flex;
 }
 
 /* .pageLinks {
