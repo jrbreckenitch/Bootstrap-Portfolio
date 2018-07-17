@@ -71,11 +71,23 @@ hr {
     position: relative;
 }
 
+/* div.thumbnail img {
+    position: relative;
+} */
+
 .caption {
     position: absolute;
-    top: 45%;
+    top: 70%;
     left: 0;
     width: 100%;
+}
+
+
+.caption p {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .contentWrapper {
